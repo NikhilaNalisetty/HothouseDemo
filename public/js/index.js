@@ -42,7 +42,7 @@ signupButton.addEventListener("click", async (e) => {
       // console.log("Sending data to backend...");
 
       try {
-        const result = await axios.post("http://localhost:4000/user/registration", {
+        const result = await axios.post("user/registration", {
           firstName: firstName.value,
           lastName: lastName.value,
           email: email.value,
