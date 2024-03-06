@@ -10,7 +10,7 @@ signupButton.addEventListener("click", async (e) => {
   const email = document.getElementById("email");
   const mobile = document.getElementById("mobile");
   const password = document.getElementById("password");
-  const conformPassword = document.getElementById("conform-password");
+  const conformPassword = document.getElementById("confirm-password");
 
   const inputs = document.querySelectorAll(".input-details");
 
